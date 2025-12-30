@@ -29,7 +29,7 @@
       }
       body {
         margin: 0;
-        padding: 0px;
+        padding: 10px;
       }
       .AH-Box {
         display: flex;
@@ -37,8 +37,8 @@
         align-items: center;
       }
       .AH-Box img {
-        width: 300px;
-        display: inline-block;
+        width: 250px;
+        display: block;
         opacity: 0;
         animation: scaleit 4s ease-in-out 2s infinite alternate;
       }
@@ -54,6 +54,11 @@
         100% {
           transform: scale(1);
           opacity: 1;
+        }
+      }
+      @media (max-width: 1200px) {
+        .AH-Box img {
+          width: 500px;
         }
       }
     </style>
