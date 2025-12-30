@@ -20,12 +20,12 @@ body {
 }
 .Title-Section h1 {
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   color: #000;
 }
 .Title-Section h2 {
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 .Cards-Section {
   display: grid;
@@ -94,3 +94,4 @@ body {
     font-size: 1.5rem;
   }
 }
+
