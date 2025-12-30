@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="Bassem Things Images/spring-rabbit-with-flower-hole.png"
+    />
+    <title>Aya's Homepage</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 50px;
+        background-color: #000;
+        font-family: Roboto, Arial;
+      }
+      .AH-Box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .AH-Box img {
+        width: 200px;
+        display: inline-block;
+        opacity: 0;
+        animation: scaleit 4s ease-in-out 2s infinite alternate;
+      }
+      @keyframes scaleit {
+        0% {
+          transform: scale(0.2);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.3);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="AH-Box">
+      <a href="Aya Things.html">
+        <img src="Bassem Things Images/Aya Logo.png" />
+      </a>
+    </div>
+  </body>
+</html>

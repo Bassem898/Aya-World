@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+  background-color: #e3e7eb;
+}
+.Aya-Logo {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Main-of-Page {
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+}
+.Title-Section {
+  text-align: center;
+  color: #e60000;
+  margin: 0px 0px 75px 0px;
+}
+.Title-Section h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.Title-Section h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.Cards-Section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .Cards-Section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .Cards-Section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.Card {
+  padding: 0px;
+  border-radius: 20px;
+  background-color: transparent;
+  border-top: 5px solid #000;
+  border-bottom: none;
+  border-right: 5px solid #000;
+  border-left: 5px solid #000;
+  transition: border-right 0.2s, border-left 0.2s, border-top 0.2s,
+    box-shadow 0.4s;
+}
+.Card:hover {
+  border-right: 5px solid #e60000;
+  border-left: 5px solid #e60000;
+  border-top: 5px solid #e60000;
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);
+}
+.Card a {
+  text-decoration: none;
+}
+.Card-image {
+  background-color: transparent;
+  border-radius: 20px 20px 0 0;
+  padding: 25px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-Name {
+  background-color: #000;
+  border-radius: 0 0 20px 20px;
+  padding: 25px 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-Name h2 {
+  margin: 0px;
+  font-size: 28px;
+  font-weight: 600;
+  color: White;
+}
+@media (max-width: 767px) {
+  .Card-Name h2 {
+    font-size: 24px;
+  }
+}
