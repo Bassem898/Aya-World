@@ -20,11 +20,12 @@ body {
 }
 .Title-Section h1 {
   text-transform: uppercase;
-  font-size: 44px;
+  font-size: 3rem;
+  color: #000;
 }
 .Title-Section h2 {
   text-transform: uppercase;
-  font-size: 34px;
+  font-size: 2rem;
 }
 .Cards-Section {
   display: grid;
@@ -34,12 +35,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 930px) {
+@media (max-width: 992px) {
   .Cards-Section {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 930px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .Cards-Section {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -84,12 +85,12 @@ body {
 }
 .Card-Name h2 {
   margin: 0px;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   color: White;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .Card-Name h2 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 }
