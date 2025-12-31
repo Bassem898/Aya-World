@@ -37,12 +37,12 @@ body {
 }
 @media (max-width: 768px) {
   .Cards-Section {
-    grid-template-columns: 0.75fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .Cards-Section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .Card {
@@ -68,16 +68,24 @@ body {
 .Card-image {
   background-color: transparent;
   border-radius: 20px 20px 0 0;
-  padding: 25px;
+  padding: 20px;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.Card-image img {
+  width: 125px;
+}
+@media (min-width: 992px) {
+  .Card-image img {
+    width: 150px;
+  }
+}
 .Card-Name {
   background-color: #000;
   border-radius: 0 0 20px 20px;
-  padding: 25px 10px;
+  padding: 20px 5px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -89,9 +97,8 @@ body {
   font-weight: 600;
   color: White;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .Card-Name h2 {
     font-size: 1.5rem;
   }
 }
-
