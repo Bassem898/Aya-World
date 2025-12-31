@@ -30,7 +30,7 @@ body {
 .Cards-Section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 25px;
+  column-gap: 15px;
   row-gap: 50px;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ body {
   background-color: transparent;
   border-radius: 20px 20px 0 0;
   padding: 20px;
-  height: 150px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,19 +86,20 @@ body {
   background-color: #000;
   border-radius: 0 0 20px 20px;
   padding: 20px 5px;
-  height: 50px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .Card-Name h2 {
   margin: 0px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: White;
 }
 @media (max-width: 992px) {
   .Card-Name h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
+
