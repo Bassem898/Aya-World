@@ -20,12 +20,12 @@ body {
 }
 .Title-Section h1 {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: clamp(1.25rem, 5vw, 2.5rem);
   color: #000;
 }
 .Title-Section h2 {
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: clamp(0.925rem, 4.3vw, 2rem);
 }
 .Cards-Section {
   display: grid;
@@ -77,15 +77,15 @@ body {
   align-items: center;
 }
 .Card-image img {
-  width: 125px;
+  width: clamp(100px, 12.5vw, 150px);
 }
 @media (min-width: 992px) {
   .Card-image {
     height: 150px;
   }
-  .Card-image img {
+  /*.Card-image img {
     width: 150px;
-  }
+  }*/
 }
 .Card-Name {
   background-color: #000;
